@@ -1,0 +1,133 @@
+{"articles" : [
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Greece fires: Thousands flee, as PM warns of 'difficult days'",
+    "description": "Kyriakos Mitsotakis says the country is \"at war with the fire\" with temperatures not expected to drop until later this week.",
+    "url": "http://www.bbc.co.uk/news/live/world-66287208",
+    "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
+    "publishedAt": "2023-07-24T15:37:23.4329018Z",
+    "content": "Here at Rhodes airport,\r\nholidaymakers have described the fear they felt as fires raged around them.\r\nTheyve described their anger at airlines, whom they feel let them down. \r\nBut many of them have\r\n… [+994 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Hundreds displaced after severe flooding in Canada",
+    "description": "Four people, including two children, remain missing in Nova Scotia as search efforts continue.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66292536",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/74EA/production/_130503992_d01d4589aa21ed2632760f4f89b997d8f308beb40_0_5500_38001000x691.jpg",
+    "publishedAt": "2023-07-24T15:37:19.1669361Z",
+    "content": "Hundreds have been displaced and four people are missing as floods devastate the Canadian province of Nova Scotia.\r\nPolice have found a vehicle two children were in before it was submerged but found … [+2297 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Heatwave in US Southwest region to expand east",
+    "description": "Some 56 million Americans began Monday under extreme heat alerts as more US temperature records fell.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66290589",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F492/production/_130501626_gettyimages-1542942538.jpg",
+    "publishedAt": "2023-07-24T14:07:22.4917571Z",
+    "content": "A heatwave baking the US Southwest for weeks is set to expand into central and eastern regions.\r\nBeginning in the Midwest, the hot weather will extend east as far as the southern tip of Florida by We… [+2081 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Ukraine war: Russia attacks grain stores at River Danube ports",
+    "description": "The attacks targeted grain for export along the Danube just across from the Nato member state.",
+    "url": "http://www.bbc.co.uk/news/world-europe-66289136",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5A3C/production/_130500132_ukrainefirefighters-index.jpg",
+    "publishedAt": "2023-07-24T13:52:16.3239832Z",
+    "content": "Russian drones have attacked Ukrainian ports on the River Danube, destroying grain storage infrastructure, local officials say.\r\nThe facilities are just across the river from Nato-member Romania.\r\nTh… [+2527 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "George Alagiah: BBC journalist and newsreader dies aged 67",
+    "description": "The award-winning journalist was a respected fixture on British TV news for more than three decades.",
+    "url": "http://www.bbc.co.uk/news/entertainment-arts-65949435",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5BC8/production/_127069432_smaller.jpg",
+    "publishedAt": "2023-07-24T11:22:22.1527332Z",
+    "content": "George Alagiah, one of the BBC's longest-serving and most respected journalists, has died at 67, nine years after being diagnosed with cancer.\r\nA statement from his agent Mary Greenham said he \"died … [+7133 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Greta Thunberg fined over Swedish climate protest",
+    "description": "The climate activist was on trial for disobeying a police order to leave the protest in Malmo last month.",
+    "url": "http://www.bbc.co.uk/news/world-europe-66287756",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png",
+    "publishedAt": "2023-07-24T10:52:19.495527Z",
+    "content": "Greta Thunberg has been found guilty and fined for disobeying a police order to leave a climate protest in the Swedish port of Malmo last month.\r\nThe Swedish climate activist pleaded not guilty. \"My … [+450 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Woman found dead in Montana after suspected grizzly bear encounter",
+    "description": "Grizzly bear tracks were found at the scene near Yellowstone National Park, say investigators.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66287753",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5847/production/_130499522_grizzly.jpg",
+    "publishedAt": "2023-07-24T10:22:21.4495289Z",
+    "content": "A woman has been found dead on a trail near Yellowstone National Park after likely coming into contact with a grizzly bear, park officials have said.\r\nTracks from a grizzly were discovered close to t… [+1156 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Israel judicial reform: Water cannon used outside parliament ahead of key vote",
+    "description": "Police scuffle with protesters attempts to stop MPs voting on a bill which has caused uproar.",
+    "url": "http://www.bbc.co.uk/news/world-middle-east-66258416",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/BBAC/production/_130444084_israelwatercannonepaefe47b0815bf8bd0c0be83e47a398d124ba7f311d330_120_4692_26401000x563.jpg",
+    "publishedAt": "2023-07-24T09:22:17.964729Z",
+    "content": "Police have used water cannon and arrested protesters outside Israel's parliament ahead of a key vote on reforms which have caused uproar.\r\nThe vote brings to a head months of turmoil with some of th… [+2488 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Elon Musk: Time to say goodbye to Twitter bird logo",
+    "description": "The owner of the social media site says he wants to replace the bird logo, named Larry, with an \"X\".",
+    "url": "http://www.bbc.co.uk/news/business-66284304",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16985/production/_130494529_gettyimages-1244772439.jpg",
+    "publishedAt": "2023-07-24T06:52:17.2925315Z",
+    "content": "Twitter owner Elon Musk has said he wants to get rid of the Twitter bird logo, and replace it with an \"X\".\r\nHowever, Mr Musk also has a history of making statements that fail to happen or are not ser… [+2621 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Russia accuses Ukraine of Moscow drone attack",
+    "description": "The Kremlin accuses Ukraine of being behind an attack that damaged at least two buildings.",
+    "url": "http://www.bbc.co.uk/news/world-europe-66286102",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2BAB/production/_130497111_mediaitem130496611.jpg",
+    "publishedAt": "2023-07-24T03:07:15.2468193Z",
+    "content": "Russia has accused Ukraine of being behind a drone attack that damaged at least two buildings in the capital Moscow early on Monday morning. \r\nThe Russian defence ministry said two Ukrainian drones w… [+1481 chars]"
+    }
+    ]
+}
