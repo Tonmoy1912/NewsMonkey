@@ -11,17 +11,22 @@ export default class News extends Component {
         console.log("Hi I am a constructor from news component");
         this.state={
             articles:[],
-            loading:false
+            loading:false,
+            page:1
         };
     }
 
     async componentDidMount(){
-        let url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6cc9971e83854413b842ebb838e31112";
+        let url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6cc9971e83854413b842ebb838e31112&page=1";
         let data=await fetch(url);
-        console.log(data);
+        // console.log(data);
         let parsedData=await data.json();
-        console.log(parsedData);
-        this.setState({articles:parsedData.articles});
+        // console.log(parsedData);
+        this.setState({
+            articles:parsedData.articles,
+            loading: this.state.loading,
+            page: this.state.page
+        });
         
         // fetch("url").then((response) => response.json())
         // .then((data) => {
@@ -39,6 +44,35 @@ export default class News extends Component {
         // })
     }
 
+    handleNextClick=async function(event){
+        // console.log("next clicked");
+        // console.log(this.state);
+        let url=`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6cc9971e83854413b842ebb838e31112&page=${this.state.page+1}`;
+        let data=await fetch(url);
+        // console.log(data);
+        let parsedData=await data.json();
+        // console.log(parsedData);
+        this.setState({
+            articles:parsedData.articles,
+            page:this.state.page+1,
+            loading: this.state.loading
+        });
+    }
+
+    handlePrevClick=async function(event){
+        // console.log("previous clicked");
+        let url=`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6cc9971e83854413b842ebb838e31112&page=${this.state.page-1}`;
+        let data=await fetch(url);
+        // console.log(data);
+        let parsedData=await data.json();
+        // console.log(parsedData);
+        this.setState({
+            articles:parsedData.articles,
+            loading: this.state.loading,
+            page:this.state.page-1
+        });
+    }
+
     render() {
         return (
         <div className='container my-3'>
@@ -52,11 +86,12 @@ export default class News extends Component {
                         </div>
                         );
                     })
-                }
-                
-                
+                }   
             </div>
-            
+            <div className="contianer d-flex justify-content-between my-5">
+                <button disabled={this.state.page<=1} type="button" className="btn btn-dark" onClick={this.handlePrevClick.bind(this)}>&larr; Previous</button>
+                <button type="button" className="btn btn-dark" onClick={this.handleNextClick.bind(this)}>Next &rarr;</button>
+            </div>
         </div>
         )
     }
